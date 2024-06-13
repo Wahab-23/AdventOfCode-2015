@@ -8,7 +8,7 @@ const fs = require('fs');
 
 const question1 = () => {
     let directionsArray = [];
-    fs.readFile('./input.txt', (err, data) => {
+    fs.readFile('./input-day-1.txt', (err, data) => {
         if (err) { console.log(err); }
         else {
             let floor = 0;
@@ -31,7 +31,7 @@ const question1 = () => {
 
 const question2 = () => {
     let directionsArray = [];
-    fs.readFile('./input.txt', (err, data) => {
+    fs.readFile('./input-day-1.txt', (err, data) => {
         if (err) {
             console.log(err);
         }

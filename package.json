@@ -2,7 +2,7 @@
   "name": "adventofcode",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "day2.js",
   "scripts": {
     "start": "nodemon"
   },
